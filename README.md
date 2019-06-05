@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>홈페이지 만들기</title>
+	<title>What the Fox say?</title>
 
 <style>
 	
+
+	#fox li{ display:inline; 
+
+	}
+
+	#fox{text-align: center; font-size: 25px;}
+
+#logo{margin:auto; font-size: 40px;}
+
+
+body { background-color: black;
+	color: white;
+
+
+}
+
+
 .dropdown {
 display: inline-block;
 }
@@ -43,7 +60,7 @@ clear:both;
 header{
 
 	width:1000px;
-	heigth:100px;
+	height:100px;
 	margin-top:10px;
 	border:solid 1px #cccccc;
 
@@ -65,9 +82,9 @@ margin:30px 20 px; 0 0;
 }
 
 nav{width:1000px;
-	height:700px;
+	height:60px;
 	margin-top:10px;
-	boder:solid 1px #cccccc;
+	border:solid 1px #cccccc;
 }
 
 
@@ -101,7 +118,7 @@ border:solid 1px #cccccc;
 
 float:left;
 
- margin 30px 0 0 20px}
+ margin:30px 0 0 20px}
 
 }
 
@@ -134,7 +151,7 @@ border: solid 0px red;
 
 <div id='logo'>
 
-	뱁새
+	WHAT'S THE FOX SAY?
 
 	
 	
@@ -144,7 +161,7 @@ border: solid 0px red;
 <div id='top'>
 	<div class="dropdown">
 
-<span>로그인|회원가입|마이페이지|고객센터</span>
+<span>login|Sign Up |My page|Service center</span>
 <div class="dropdown-content">
 
 </header>
@@ -153,49 +170,49 @@ border: solid 0px red;
 <!--float 속성 해제-->
 
 <nav>
-	
-<ul>
-	<li>뱁새</li>
-	<li>뱁새프로그램</li>
-	<li>뱁새정보</li>
-	<li>특별혜택</li>
-	<li>이벤트</li>
+	  
+<ul id='fox'>
+
+	<li>Vulpes lagopus|</li>
+	<li>Vulpes zerda|</li>
+	<li>Vulpes vulpes|</li>
+	<li>Vulpes cana|</li>
+	<li>event|</li>
 </ul>
 </nav>
 <div class='clear'> </div><!--float속성 해제-->
-<section>
-	
-	<img src= babjpg.jpg>
 
-</section>
 <aside>
 
 	<ul>
 
 
-<li>뱁새여행</li>
-	<li>핵심혜택</li>
-	<li>이벤트</li>
-	<li>뱁새 TMI</li>
+<li>NEWS</li>
+	<li>EVENT</li>
+	<li>IMEGES</li>
+	<li>CHEAT</li>
 </ul>
 
 </aside>
 
-<section class = 'clear'> 
-<img src="now.jpg" width=1000>
+<section>
+	
+	<img src= 2.png width='500px'>
+
 </section>
-<div class='clear'></div><!--float 속성 해제-->
+
+<!--float 속성 해제-->
 <footer>
 
 	<div id='address'>
 
-	주최:뱁새
-	주관:뱁새
+Animal protection group:eKara
+	
 </div>
  
  <div id='costmor'>
 
- 안내전화:1234
+ TEL : 02-3482-0999 
 </div>
 </footer>
 
