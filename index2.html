@@ -21,6 +21,8 @@ body { background-color: black;
 
 }
 
+@charset "utf-8"
+
 
 .dropdown {
 display: inline-block;
@@ -43,6 +45,25 @@ display: inline-block;
 
 	padding: 0;
 	margin:0;
+
+}
+
+#drop ul
+{list-style: none;}
+
+#drop ul li
+
+{text-decoration: none;
+color:orange;
+display: block;}
+
+{background-color: orange;
+	border: 1px solid #fff;
+width: 100px;
+height: 40px;
+line-height: 40px;
+text-align:center;
+float:left;
 
 }
 
@@ -161,7 +182,7 @@ border: solid 0px red;
 <div id='top'>
 	<div class="dropdown">
 
-<span>login|Sign Up |My page|Service center</span>
+<span>login|<a href="a.html">Sign Up</a> |My page|Service center</span>
 <div class="dropdown-content">
 
 </header>
@@ -173,11 +194,11 @@ border: solid 0px red;
 	  
 <ul id='fox'>
 
-	<li>Vulpes lagopus|</li>
-	<li>Vulpes zerda|</li>
-	<li>Vulpes vulpes|</li>
-	<li>Vulpes cana|</li>
-	<li>event|</li>
+	<li>FOX|</li>
+	<li><a href="f2.html">BOARD|</a></li>
+	<li>EVENT|</li>
+	<li>IMAGE|</li>
+	<li>NEWS</li>
 </ul>
 </nav>
 <div class='clear'> </div><!--float속성 해제-->
